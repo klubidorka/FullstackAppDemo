@@ -22,7 +22,7 @@ public class React {
 
         NashornScriptEngine nashornScriptEngine = (NashornScriptEngine) new ScriptEngineManager().getEngineByName ("nashorn");
 
-        nashornScriptEngine.eval ("load ('" + bundleJsFile.getFile().getCanonicalPath() + "')");
+        nashornScriptEngine.eval ("load ('" + bundleJsFile.getURL() + "')");
 
         return nashornScriptEngine;
     }
