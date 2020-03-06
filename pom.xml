@@ -114,12 +114,12 @@
                         </configuration>
                     </execution>
                     <execution>
-                        <id>webpack build</id>
+                        <id>build production webpack</id>
                         <goals>
-                            <goal>webpack</goal>
+                            <goal>npm</goal>
                         </goals>
                         <configuration>
-                            <arguments>--config webpack.prod.js</arguments>
+                            <arguments>run build</arguments>
                         </configuration>
                     </execution>
                 </executions>
