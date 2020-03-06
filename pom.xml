@@ -23,10 +23,6 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-mustache</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
@@ -89,7 +85,7 @@
                 <version>1.6</version>
                 <configuration>
                     <installDirectory>target</installDirectory>
-                    <workingDirectory>web</workingDirectory>
+                    <workingDirectory>src/main/resources/static/web</workingDirectory>
                 </configuration>
                 <executions>
                     <execution>
@@ -124,5 +120,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
