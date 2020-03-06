@@ -9,7 +9,7 @@ module.exports = merge(common, {
         filename: 'bundle.js'
     },
     devServer: {
-        contentBase: './dist',
+        contentBase: './',
         compress: true,
         port: 3000,
         progress: true,

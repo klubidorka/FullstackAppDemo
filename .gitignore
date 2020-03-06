@@ -1,0 +1,8 @@
+.idea
+.settings
+.vscode
+.classpath
+.env
+.project
+target
+web/node_modules

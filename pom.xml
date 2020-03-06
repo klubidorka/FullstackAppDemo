@@ -10,7 +10,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.example</groupId>
-    <artifactId>backend</artifactId>
+    <artifactId>fullstack</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <name>serving-web-content</name>
@@ -29,7 +29,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -44,8 +43,6 @@
             <artifactId>json</artifactId>
             <version>20190722</version>
         </dependency>
-
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
@@ -92,6 +89,7 @@
                 <version>1.6</version>
                 <configuration>
                     <installDirectory>target</installDirectory>
+                    <workingDirectory>web</workingDirectory>
                 </configuration>
                 <executions>
                     <execution>
